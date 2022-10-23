@@ -114,5 +114,5 @@ MonoBehaviour:
   IsGood: 1
   IsWin: 0
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
-  BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  BadMaterial: {fileID: 2100000, guid: fd849a7ae43a93942b654723951078cf, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}

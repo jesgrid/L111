@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5646296097972077227}
   - component: {fileID: 1676358823431782082}
   - component: {fileID: 8218247660406335055}
+  - component: {fileID: 8581632206098325963}
   m_Layer: 0
   m_Name: WinPlatform
   m_TagString: Untagged
@@ -69,7 +70,21 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3, y: 0.3, z: 3}
-  m_Center: {x: 0, y: 0.25, z: 0}
+  m_Center: {x: 0, y: 0.19, z: 0}
+--- !u!64 &8581632206098325963
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187235278307679329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1028732983599392005
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +148,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -185,7 +200,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &1170949894524719273
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +264,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -301,7 +316,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &1729692945322879290
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +380,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -417,7 +432,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &2364347495779029165
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +496,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -533,7 +548,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &2899584702612364106
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +612,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -649,7 +664,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &4126345525220980176
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +728,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -765,7 +780,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &4126345525976107157
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +844,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -881,7 +896,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &4126345526090190214
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,7 +960,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -997,7 +1012,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &4126345526518636212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,7 +1076,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1113,7 +1128,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &5278986274584847563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,7 +1192,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1229,7 +1244,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &7217749684783422819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,7 +1308,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1345,7 +1360,7 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
 --- !u!1 &8262820644830744309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,7 +1424,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  - {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1461,4 +1476,4 @@ MonoBehaviour:
   IsWin: 1
   GoodMaterial: {fileID: 2100000, guid: 62ab2648eb05da44292edfaa4502883c, type: 2}
   BadMaterial: {fileID: 2100000, guid: 13123f36869248547a1f745cbabb77f9, type: 2}
-  WinMaterial: {fileID: 2100000, guid: 5b53e085cb22e4e45a6644d7147a29b4, type: 2}
+  WinMaterial: {fileID: 2100000, guid: 55d716a095a593a4a87886d4b24a9c79, type: 2}
