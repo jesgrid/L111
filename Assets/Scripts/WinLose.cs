@@ -5,6 +5,7 @@ public class WinLose : MonoBehaviour
     public Controls Controls;
     public Canvas LoseScreen;
     public Canvas WinScreen;
+    public GameObject Finish;
 
     public enum State
     {
@@ -29,6 +30,7 @@ public class WinLose : MonoBehaviour
     {
         if (CurrentState == State.Playing)
         {
+            Finish.GetComponent<ParticleSystem>().Play();
             LevelIndex++;
             CurrentState = State.Win;
             Controls.enabled = false;
